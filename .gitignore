@@ -1,0 +1,55 @@
+# Ignore build directories
+Binaries/
+Intermediate/
+Build/
+
+# Ignore cache files
+Saved/
+*.tmp
+*.temp
+*.log
+*.obj
+*.PDB
+*.suo
+*.user
+*.userprefs
+
+# Ignore compiled files
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Ignore auto-generated IDE files
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore config files generated on build
+DerivedDataCache/
+__pycache__/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore backups and hidden files
+Backup/
+*.bak
+
+# Ignore plugin intermediate files
+Plugins/*/Intermediate/
+
+# Ignore optional files
+*.swp
+*.iml
+
+# Ignore project settings that can be rebuilt
+*.opensdf
+*.sdf
+
+# Include project essentials
+!.gitignore
+!*.uproject
+!Source/
